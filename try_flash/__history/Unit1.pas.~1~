@@ -27,24 +27,24 @@ implementation
 {$R *.dfm}
 
 procedure TForm1.Button1Click(Sender: TObject);
-var
-  s: string;
-  p: array [0 .. 30] of char;
+var s:string;
+p:array[0..30] of char;
 begin
-  flash1.Stop;
-  getcurrentdirectory(30, p);
-  s := string(p);
-  flash1.Movie := FLB1.FileName;
-  flash1.flash1.Play;
+flash1.Stop;
+getcurrentdirectory(30,p);
+s:=string(p);
+flash1.Movie:=flb1.FileName;
+flash1.
+flash1.Play;
 end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 var
-  p: array [0 .. 30] of char;
+p:array[0..30] of char;
 begin
-  getcurrentdirectory(30, p);
-  FLB1.Directory := string(p) + '\swf';
-  // listbox1.Items.Add('');
+getcurrentdirectory(30,p);
+flb1.Directory:=string(p)+'\swf';
+//listbox1.Items.Add('');
 end;
 
 end.
