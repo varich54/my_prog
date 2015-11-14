@@ -1,0 +1,33 @@
+[------0] "eXgine 0.80" log start
+[-----25] Network : Initialized
+[------0] Network : Description : WinSock 2.0
+[------0] Network : MaxSockets  : 32767
+[------0] Network : MaxSize UDP : 65467
+[------0] Input   : Keyboard ready
+[------0] Input   : Mouse    ready
+[-----92] Input   : Joystick not ready
+[------0] Window  : Create main window
+[------6] OpenGL  : Init graphics core
+[----470] OpenGL  : GL_VENDOR   : Intel
+[------0] OpenGL  : GL_RENDERER : Intel(R) HD Graphics 3000
+[------0] OpenGL  : GL_VERSION  : 3.1.0 - Build 9.17.10.2932
+[------0] OpenGL  : MAX_TEX_UNITS  : 8
+[------0] OpenGL  : MAX_TEX_SIZE   : 8192
+[------0] OpenGL  : MAX_ANISOTROPY : 16
+[------0] OpenGL  : USE_AA_SAMPLES : 0
+[------0] OpenGL  : Reading extensions
+[------0] OpenGL  : - WGL_EXT_swap_control
+[------0] OpenGL  : + GL_ARB_multitexture
+[------0] OpenGL  : + GL_EXT_framebuffer_object
+[------0] OpenGL  : + GL_ARB_shading_language
+[------0] OpenGL  : + GL_ARB_vertex_buffer_object
+[-----72] Texture : Create #2	*Font_FixedSys_0*
+[-----48] Sound   : DirectSound Initialized
+[------2] Sound   : Can't initialize Ogg Vorbis
+[----287] Window  : 1024x768x32x60
+[-----13] Engine  : Main Loop start
+[---6761] Engine  : Main Loop stop
+[------0] Texture : Unload #2	*Font_FixedSys_0*
+[----157] Window  : 1366x768x32x60
+[----132] Window  : Destroy main window
+[------0] "eXgine 0.80" log close
